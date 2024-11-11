@@ -1,0 +1,497 @@
+/*Меню*/
+
+/*＼(￣▽￣)／
+Добро пожаловать
+          ／＞　 フ
+　　　　　| 　_　 _|
+　 　　　／`ミ _x 彡
+　　 　 /　　　 　 |
+　　　 /　 ヽ　　 ﾉ
+　／￣|　　 |　|　|
+　| (￣ヽ＿_ヽ_)_)
+　＼二つ*/
+body
+{
+    font-family: Arial;
+    color: black;
+}
+.spisok li
+{
+   display: inline; 
+}
+.spisok a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    padding: 10px;
+}
+.spisok a:hover
+{
+    border-bottom: 2px solid #de0000;
+}
+
+
+/*Ваша ипотека, блок №2*/
+
+.block2-fon
+{
+    background: url('https://i.ibb.co/XZYZc15/main-bg.jpg');
+    height: 290px;
+    width: 1200px;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: block;
+    border: #f3b300 2px solid;
+    background-position: top;
+    text-align: center;
+    background-size: cover;
+    box-shadow:0 0 0 290px rgba(0, 0, 0, 0.65) inset;
+}
+.pict2
+{
+    padding:40px;
+    z-index: 2;
+    font-size: 1.5em;
+}
+.yelltxt
+{
+    color: #f3b300;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.selka a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.selka a:hover
+{
+    transition: 0.2s;
+    font-size: 1.2em;
+    color: #f3b300; 
+    text-decoration: underline;
+}
+
+    
+/*Блок №3*/
+
+
+.block3
+{
+    position: absolute;
+    margin-top: 300px;
+    color: black;
+    height: auto;
+    width: 1200px;
+}
+
+/*Блок №4*/
+
+.block4
+{
+    position: absolute;
+    margin-top: 580px;
+    height: auto;
+    width: 1200px;
+} 
+.img_ned
+{
+    background: url(../img/ned.jpg);
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: block;
+    text-align: center;
+    background-size: cover;
+}
+.myshadow
+{
+   box-shadow:0 0 0 290px rgba(0, 0, 0, 0.65) inset;
+   height: 400px;
+   width: 100%;
+}
+.txturidsop
+{
+    position: relative;
+    top: 70px;
+    color:#f3b300; 
+    font-weight:bold;
+    z-index: 2;
+    text-align: center;
+}
+
+.boxpodbor
+{
+    position: relative;
+    top: 120px;
+    z-index: 2;
+    
+}
+.podbor
+{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.boxknopka
+{
+    position: relative;
+    top: 190px;
+    z-index: 2;
+    text-align: center;
+}
+a.knopka
+{
+    color: white;
+    text-decoration: none;
+    border: #f3b300 2px solid;
+    padding: 10px;
+    border-radius: 2px;
+}
+.knopka:hover
+{
+    font-size: 17px;
+}
+/*форма_1 правый угол, все еще блок №4*/
+.boxfreeurkon
+{
+    position: relative;
+    top: 10px;
+}
+.freeurkon
+{
+    color: black;
+    text-align: center;
+}
+.boxforms
+{
+    position: relative;
+    top: 45px;
+    left: 30px;
+}
+.polevv_1
+{
+    border-radius: 2px;
+    border: #979797 1px solid;
+}
+.polevv_1_niz
+{
+    font-size: 14px; 
+    color:#979797;
+    position: relative;
+    top: -4px;
+}
+.knopka_submit
+{
+    border-radius: 3px;
+    border: #f7c529 2px solid;
+    background-color: #f3b300;
+    position: relative;
+    left: 90px;
+    padding: 5px 10px;
+    width: 250px; 
+    height: 35px;
+}
+.knopka_submit:hover
+{
+    font-size: 16.5px;
+    padding: 4px 5px;
+}
+
+
+/*Блок №5*/
+
+
+.block5
+{
+   position: absolute;
+   margin-top: 1000px;
+   height: auto;
+   width: 1200px;
+}
+.kryg
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #f3b300;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.txtblack
+{
+    font-family: Arial;
+     color: #000;
+     text-align: left;
+     vertical-align: middle;
+}
+
+
+/*Блок №6*/
+
+
+.block6
+{
+   position: absolute;
+   margin-top: 1250px;
+   height: auto;
+   width: 1100px;
+}
+.img_143
+{
+    background: url(../img/143.jpg);
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: block;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.myshadow_2
+{
+   box-shadow:0 0 0 290px rgba(0, 0, 0, 0.65) inset;
+   height: 100%;
+   width: 100%;
+}
+.boxtxtviberi
+{
+    position: relative;
+    z-index: 3;
+    top: 10px;
+    left: 15px;
+}
+.txtviberi
+{
+    color: #f3b300;
+    font-weight: bold;
+    text-align: left;
+}
+.boxnovo
+{
+    position: relative;
+    z-index: 3;
+}
+.txtnovo
+{
+    position: relative;
+    color: white;
+    top: 10px;
+}
+.txt_select
+{
+    position: relative;
+    color: white;
+    left: 55px; 
+}
+.select_terr
+{
+    border-radius: 4px;
+    border: none;
+    width: 250px;
+    height: 25px;
+    left: 10px;
+}
+.boxz
+{
+    position: relative;
+    top: 30px;
+}
+.textqaz{
+    color: white;
+    font-weight: 600;
+}
+.case1
+{
+    font-weight: 600;
+    padding: 2px;
+    position: relative;
+    top: 2px;
+    display: inline-flex;
+    border: #f3b300 solid 1px;
+    color: white;
+    width: 252px;
+}
+.txt_knopka
+{
+    font-weight: 600;
+    padding: 2px;
+    position: relative;
+    top: 90px;
+    left: 225px;
+    border: #f3b300 solid 2px;
+    color: white;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    z-index: 2;
+}
+.txt_knopka:hover
+{
+    font-weight: 600;
+    font-size: 22px;
+}
+.boxoct2
+{
+    position: relative;
+    z-index: 3;
+    left: 600px;
+    top:-250px;
+}
+.txtoktabrsk
+{
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    border-bottom: #f3b300 dashed 2px;
+    display: inline-block;
+    position: relative;
+}
+.txtoktb1
+{
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 80%;
+    padding: 7px;
+}
+.txtoktb2
+{
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    line-height: 1.2;
+    font-size: 80%;
+    padding: 0px;
+}
+
+
+/*Блок №7*/
+
+
+.block7
+{
+   position: relative;
+   margin-top: 1680px;
+   height: auto;
+   width: 1200px;
+}
+.img_kvadrat
+{
+    display: inline-flex;
+    margin: 10px;
+    height: 284px;
+    width: 284px;
+    background-size: cover;
+    position: relative;
+    left: 6px;
+    border: 2px #f3b300 solid;
+    background-repeat: no-repeat;
+}
+
+.img_kvadrat_shadow
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    text-align: center;
+}
+.txt_kvadrat
+{
+    font-weight: 600;
+    top: 110px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.txt_special_kvadrat
+{
+    color: #f3b300;
+    font-weight: 780;
+    font-size: 20px;
+}
+
+.knopka4
+{
+    padding: 3% 7%;
+    border: none;
+    transform: translate(-50%,0);
+    background-color: #f3b300;
+    position: relative;
+    left: 50%;
+}
+.knopka4:hover
+{
+    position: relative;
+    font-size: 16.5px;
+}
+
+
+/*Блок №8*/
+
+
+.block8
+{
+   position: absolute;
+   height: auto;
+   width: 1200px;
+}
+.txtselka
+{
+    color: #037be8;
+}
+.txtselka:hover
+{
+    color: #0077d9;
+    text-decoration: underline;
+}
+
+
+/*Блок №9*/
+
+.block9
+{
+   position: absolute;
+   margin-top: 560px;
+   height: auto;
+   width: 1200px;
+} 
+.footer
+{
+    page-break-after: 0px;
+
+}
+.footer_li
+{
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    top: 10px;
+}
+.footer_txt
+{
+    position: relative;
+    top: -10px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15.5px;
+    font-weight: 650;
+}
+.footer_selka
+{
+    letter-spacing: -0.5px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+}
